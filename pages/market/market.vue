@@ -1,5 +1,6 @@
 <template>
 	<view class="content">
+		<official-account></official-account>
 		<qiun-title-bar title="集思录温度计"/>
 		<!-- 这里的title.name和subtitle.name如果需要联动chartData，请定义一个变量同步传入:opts和:chartData中 -->
 		<view class="charts-box">
