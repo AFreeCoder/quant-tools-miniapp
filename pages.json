@@ -1,0 +1,28 @@
+{
+	"pages": [
+	{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "首页"
+		}
+	},
+	{
+		"path": "pages/market/market",
+		"style": {
+			"navigationBarTitleText": "市场行情"
+		}
+	},
+	{
+		"path": "pages/calculator/calculator",
+		"style": {
+			"navigationBarTitleText": "定投计算器"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "默认标题",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

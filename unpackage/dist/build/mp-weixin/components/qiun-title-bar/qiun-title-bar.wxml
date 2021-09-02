@@ -1,0 +1,1 @@
+<view class="qiun-title-bar"><view class="qiun-title-dot"></view><view class="qiun-title-text">{{title}}</view></view>
