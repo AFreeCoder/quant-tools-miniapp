@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "首页",
-  "usingComponents": {
-    "uni-group": "/uni_modules/uni-group/components/uni-group/uni-group"
-  }
-}

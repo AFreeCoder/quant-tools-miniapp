@@ -1,5 +1,6 @@
 <template>
 	<view>
+		<official-account></official-account>
 		<uni-group mode="card">
 			<view style="display: flex;">
 				<image mode="widthFix" style="vertical-align: middle;width: 750rpx;" src="../../static/index/banner_1.png"/>

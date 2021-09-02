@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "首页",
-  "titleNView": true,
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "uni-group": "/uni_modules/uni-group/components/uni-group/uni-group"
-  }
-}

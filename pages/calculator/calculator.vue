@@ -1,5 +1,6 @@
 <template>
 	<view>
+		<official-account></official-account>
 		<uni-group top="10">
 			<qiun-title-bar title="请选择要计算的目标"/>
 			<view class="content">
