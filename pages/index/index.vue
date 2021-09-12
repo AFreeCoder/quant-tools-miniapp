@@ -18,11 +18,14 @@
 				<view class="grid-template-columns">
 					<navigator url="/pages/market/market" open-type="navigate"
 						hover-class="other-navigator-hover">
-						<image src="../../static/index/temperature.png" style="vertical-align:middle;width: 80rpx;height: 80rpx;"><text style="margin-left:24rpx;font-size:32rpx;" >估值温度计</text>
+						<image src="../../static/index/temperature.png" style="vertical-align:middle;width: 80rpx;height: 80rpx;"><text style="margin-left:24rpx;font-size:32rpx;" >市场观察室</text>
 					</navigator>
 				</view>
 				<view class="grid-template-columns">
-					<image src="../../static/index/lock.png" style="vertical-align:middle;width: 80rpx;height: 80rpx;"><text style="margin-left:24rpx;font-size:32rpx;">待解锁</i></text>
+					<navigator url="/pages/etf/etf" open-type="navigate"
+						hover-class="other-navigator-hover">
+						<image src="../../static/index/index.png" style="vertical-align:middle;width: 80rpx;height: 80rpx;"><text style="margin-left:24rpx;font-size:32rpx;">ETF组合</i></text>
+					</navigator>
 				</view>
 				<view class="grid-template-columns">
 					<image src="../../static/index/lock.png" style="vertical-align:middle;width: 80rpx;height: 80rpx;"><text style="margin-left:24rpx;font-size:32rpx;">待解锁</i></text>
@@ -41,6 +44,7 @@
 			return {}
 		},
 		onLoad() {},
+		onShareAppMessage() {},
 		methods: {}
 	}
 </script>

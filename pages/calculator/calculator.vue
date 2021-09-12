@@ -179,6 +179,15 @@
 			}
 		},
 		onLoad() {},
+		onShareAppMessage(res) {
+		    if (res.from === 'button') {// 来自页面内分享按钮
+		      console.log(res.target)
+		    }
+		    return {
+		      title: '投资工具箱——定投计算器',
+		      path: '/pages/calculator/calculator'
+		    }
+		},
 		methods: {
 			onValueChange: function(e){
 				this.$refs.baseForm.resetFields(this.baseFormData);
