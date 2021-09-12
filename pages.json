@@ -9,7 +9,7 @@
 	{
 		"path": "pages/market/market",
 		"style": {
-			"navigationBarTitleText": "市场行情"
+			"navigationBarTitleText": "市场观察室"
 		}
 	},
 	{
@@ -18,7 +18,16 @@
 			"navigationBarTitleText": "定投计算器"
 		}
 	}
-	],
+        ,{
+            "path" : "pages/etf/etf",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "ETF组合",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "默认标题",
